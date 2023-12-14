@@ -82,7 +82,7 @@ dependencies {
     val hilt_version = "2.39"
 
     // Dagger - Hilt
-    // TODO: Fix this error
+    //noinspection GradleDependency
     kapt("com.google.dagger:hilt-android-compiler:$hilt_version")
     implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     kapt("androidx.hilt:hilt-compiler:1.1.0")
@@ -90,7 +90,6 @@ dependencies {
 
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
-    
 
     //Dagger - Hilt
     implementation("com.google.dagger:hilt-android:2.48")
